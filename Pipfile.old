@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+scipy = "*"
+matplotlib = "*"
+pandas = "*"
+py-pde = "*"
+ipywidgets = "*"
+sfepy = "*"
+pyvista = "*"
+pytest = "*"
+pyamg = "*"
+pyside2 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9.10"
