@@ -90,6 +90,7 @@ equations = {
     """dw_stokes.i.Omega(u, q) = 0""",
 }
 
+
 solvers = {
     'ls' : ('ls.scipy_direct', {}),
     'newton' : ('nls.newton', {
@@ -98,3 +99,4 @@ solvers = {
         'eps_r'      : 1.0,
     }),
 }
+
